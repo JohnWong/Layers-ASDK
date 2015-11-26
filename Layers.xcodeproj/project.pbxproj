@@ -26,6 +26,7 @@
 		52349F8D1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52349F8C1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift */; };
 		52349F901C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52349F8E1C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift */; };
 		52349F911C0722EE00B3BB97 /* GradientNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52349F8F1C0722EE00B3BB97 /* GradientNode.swift */; };
+		528F2DE61C0769B800F4FCD9 /* NetworkImageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F2DE51C0769B800F4FCD9 /* NetworkImageNode.swift */; };
 		AAB564BDB16D461AAE45D3CF /* libPods-Layers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A16CEE3C744E318A68991B /* libPods-Layers.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		52349F8C1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainforestOriginalCardCell.swift; sourceTree = "<group>"; };
 		52349F8E1C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedContentsDisplayLayer.swift; sourceTree = "<group>"; };
 		52349F8F1C0722EE00B3BB97 /* GradientNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientNode.swift; sourceTree = "<group>"; };
+		528F2DE51C0769B800F4FCD9 /* NetworkImageNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkImageNode.swift; sourceTree = "<group>"; };
 		93A16CEE3C744E318A68991B /* libPods-Layers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Layers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4505338B6345F4A18AB13D9 /* Pods-Layers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Layers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Layers/Pods-Layers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +105,7 @@
 				52349F8A1C07109100B3BB97 /* RainforestOriginalViewController.swift */,
 				20A29BF919B55FA2007FF4F2 /* Layers-Bridging-Header.h */,
 				2094AC3119E4CE1F00AF33ED /* Other Files */,
+				528F2DE51C0769B800F4FCD9 /* NetworkImageNode.swift */,
 			);
 			path = Layers;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				2061349119B53BE200888CAB /* RainforestViewController.swift in Sources */,
 				52349F911C0722EE00B3BB97 /* GradientNode.swift in Sources */,
 				52349F8D1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift in Sources */,
+				528F2DE61C0769B800F4FCD9 /* NetworkImageNode.swift in Sources */,
 				20744EE519F3184A00089E92 /* GradientView.swift in Sources */,
 				20101BE919CF4E9300E363A8 /* FrameCalculator.swift in Sources */,
 				52349F901C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift in Sources */,

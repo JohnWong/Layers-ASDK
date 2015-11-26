@@ -108,8 +108,7 @@ class RainforestCardCell: UICollectionViewCell {
                 containerNode.shouldRasterizeDescendants = true
                 containerNode.borderColor = UIColor(hue: 0, saturation: 0, brightness: 0.85, alpha: 0.2).CGColor
                 containerNode.borderWidth = 1
-                let featureImageNode = ASImageNode()
-                featureImageNode.layerBacked = true
+                let featureImageNode = NetworkImageNode()
                 featureImageNode.contentMode = .ScaleAspectFit
                 featureImageNode.image = image
                 let titleTextNode = ASTextNode()
