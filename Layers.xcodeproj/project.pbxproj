@@ -20,6 +20,12 @@
 		20744EE519F3184A00089E92 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744EE419F3184A00089E92 /* GradientView.swift */; };
 		20A29BFC19B55FA3007FF4F2 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A29BFB19B55FA3007FF4F2 /* UIImage+ImageEffects.m */; };
 		20D857E019E7744C00C74F2D /* AttributionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D857DF19E7744C00C74F2D /* AttributionTableViewController.swift */; };
+		52349F881C070CC000B3BB97 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52349F851C070CC000B3BB97 /* YYFPSLabel.m */; };
+		52349F891C070CC000B3BB97 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52349F871C070CC000B3BB97 /* YYWeakProxy.m */; };
+		52349F8B1C07109100B3BB97 /* RainforestOriginalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52349F8A1C07109100B3BB97 /* RainforestOriginalViewController.swift */; };
+		52349F8D1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52349F8C1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift */; };
+		52349F901C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52349F8E1C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift */; };
+		52349F911C0722EE00B3BB97 /* GradientNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52349F8F1C0722EE00B3BB97 /* GradientNode.swift */; };
 		AAB564BDB16D461AAE45D3CF /* libPods-Layers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A16CEE3C744E318A68991B /* libPods-Layers.a */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +47,15 @@
 		20A29BFA19B55FA3007FF4F2 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		20A29BFB19B55FA3007FF4F2 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		20D857DF19E7744C00C74F2D /* AttributionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributionTableViewController.swift; sourceTree = "<group>"; };
-		32586020D943488CAFE7AAD2 /* Pods-Layers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Layers.xcconfig"; path = "Pods/Pods-Layers.xcconfig"; sourceTree = "<group>"; };
 		4AB6CAF9D65C0DE0D974D2C5 /* Pods-Layers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Layers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Layers/Pods-Layers.debug.xcconfig"; sourceTree = "<group>"; };
+		52349F841C070CC000B3BB97 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		52349F851C070CC000B3BB97 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		52349F861C070CC000B3BB97 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		52349F871C070CC000B3BB97 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		52349F8A1C07109100B3BB97 /* RainforestOriginalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainforestOriginalViewController.swift; sourceTree = "<group>"; };
+		52349F8C1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainforestOriginalCardCell.swift; sourceTree = "<group>"; };
+		52349F8E1C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedContentsDisplayLayer.swift; sourceTree = "<group>"; };
+		52349F8F1C0722EE00B3BB97 /* GradientNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientNode.swift; sourceTree = "<group>"; };
 		93A16CEE3C744E318A68991B /* libPods-Layers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Layers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4505338B6345F4A18AB13D9 /* Pods-Layers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Layers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Layers/Pods-Layers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +79,6 @@
 				2061348A19B53BE200888CAB /* Products */,
 				B81D8E7235C34FD1A79601C7 /* Frameworks */,
 				C93861AC3850078120012D29 /* Pods */,
-				32586020D943488CAFE7AAD2 /* Pods-Layers.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,9 +93,14 @@
 		2061348B19B53BE200888CAB /* Layers */ = {
 			isa = PBXGroup;
 			children = (
+				52349F8E1C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift */,
+				52349F8F1C0722EE00B3BB97 /* GradientNode.swift */,
+				52349F831C070CC000B3BB97 /* FPS */,
 				206134AB19B53F8000888CAB /* RainforestCardCell.swift */,
+				52349F8C1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift */,
 				20744EE419F3184A00089E92 /* GradientView.swift */,
 				2061349019B53BE200888CAB /* RainforestViewController.swift */,
+				52349F8A1C07109100B3BB97 /* RainforestOriginalViewController.swift */,
 				20A29BF919B55FA2007FF4F2 /* Layers-Bridging-Header.h */,
 				2094AC3119E4CE1F00AF33ED /* Other Files */,
 			);
@@ -141,6 +158,17 @@
 			name = "Other Files";
 			sourceTree = "<group>";
 		};
+		52349F831C070CC000B3BB97 /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				52349F841C070CC000B3BB97 /* YYFPSLabel.h */,
+				52349F851C070CC000B3BB97 /* YYFPSLabel.m */,
+				52349F861C070CC000B3BB97 /* YYWeakProxy.h */,
+				52349F871C070CC000B3BB97 /* YYWeakProxy.m */,
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
 		B81D8E7235C34FD1A79601C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +198,7 @@
 				2061348619B53BE200888CAB /* Frameworks */,
 				2061348719B53BE200888CAB /* Resources */,
 				4867EFB1270C4263977F3589 /* Copy Pods Resources */,
+				1E19E2E639D0558D85D656E2 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +256,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1E19E2E639D0558D85D656E2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Layers/Pods-Layers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		25E5FA757E9D4D2B9BF774F1 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,7 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Layers-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Layers/Pods-Layers-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -266,12 +310,18 @@
 			files = (
 				20A29BFC19B55FA3007FF4F2 /* UIImage+ImageEffects.m in Sources */,
 				2061349119B53BE200888CAB /* RainforestViewController.swift in Sources */,
+				52349F911C0722EE00B3BB97 /* GradientNode.swift in Sources */,
+				52349F8D1C0710EA00B3BB97 /* RainforestOriginalCardCell.swift in Sources */,
 				20744EE519F3184A00089E92 /* GradientView.swift in Sources */,
 				20101BE919CF4E9300E363A8 /* FrameCalculator.swift in Sources */,
+				52349F901C0722EE00B3BB97 /* AnimatedContentsDisplayLayer.swift in Sources */,
 				206EF71B19E9E059008EA306 /* Factories.swift in Sources */,
 				202BB8C719E77A25009CD152 /* AttributionTableViewCell.swift in Sources */,
+				52349F881C070CC000B3BB97 /* YYFPSLabel.m in Sources */,
+				52349F891C070CC000B3BB97 /* YYWeakProxy.m in Sources */,
 				20101BE219CF2E7900E363A8 /* RainforestCardInfo.swift in Sources */,
 				2061348F19B53BE200888CAB /* AppDelegate.swift in Sources */,
+				52349F8B1C07109100B3BB97 /* RainforestOriginalViewController.swift in Sources */,
 				206134AC19B53F8000888CAB /* RainforestCardCell.swift in Sources */,
 				20D857E019E7744C00C74F2D /* AttributionTableViewController.swift in Sources */,
 				203646AA19DD00980085BFD5 /* RainforestCollectionViewLayout.swift in Sources */,
@@ -373,7 +423,7 @@
 		};
 		206134A619B53BE200888CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32586020D943488CAFE7AAD2 /* Pods-Layers.xcconfig */;
+			baseConfigurationReference = 4AB6CAF9D65C0DE0D974D2C5 /* Pods-Layers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -391,7 +441,7 @@
 		};
 		206134A719B53BE200888CAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32586020D943488CAFE7AAD2 /* Pods-Layers.xcconfig */;
+			baseConfigurationReference = D4505338B6345F4A18AB13D9 /* Pods-Layers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

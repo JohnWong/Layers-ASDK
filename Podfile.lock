@@ -1,16 +1,15 @@
 PODS:
-  - AsyncDisplayKit (1.0):
-    - AsyncDisplayKit/ASDealloc2MainObject
-  - AsyncDisplayKit/ASDealloc2MainObject (1.0)
+  - AsyncDisplayKit (1.9.1):
+    - AsyncDisplayKit/ASDealloc2MainObject (= 1.9.1)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.9.1)
+  - Reveal-iOS-SDK (1.6.2)
 
 DEPENDENCIES:
-  - AsyncDisplayKit (from `https://github.com/facebook/AsyncDisplayKit.git`)
-
-EXTERNAL SOURCES:
-  AsyncDisplayKit:
-    :git: https://github.com/facebook/AsyncDisplayKit.git
+  - AsyncDisplayKit
+  - Reveal-iOS-SDK
 
 SPEC CHECKSUMS:
-  AsyncDisplayKit: 66dbbaf25d0be97513e08453d654f29a84b52675
+  AsyncDisplayKit: 7bf2b3fa444284f80fd0c1e36655e324549f79d2
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.39.0

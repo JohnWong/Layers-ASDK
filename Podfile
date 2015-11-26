@@ -2,6 +2,7 @@
 # platform :ios, "6.0"
 
 target "Layers" do
-  pod 'AsyncDisplayKit', :git => 'https://github.com/facebook/AsyncDisplayKit.git'
+  pod 'AsyncDisplayKit'
+  pod 'Reveal-iOS-SDK',:configurations => ['Debug']
 end
 
